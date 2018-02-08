@@ -12,12 +12,12 @@
               android:clickable="true"
               android:orientation="vertical">
 
-    <com.teleclinic.bulent.smartimageview.SmartImageViewLayout
+    <ImageView
         android:id="@+id/meizi"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        app:shape="SQUARE"/>
+        android:shape="rectangle"/>
 
     <LinearLayout
         android:layout_width="match_parent"
