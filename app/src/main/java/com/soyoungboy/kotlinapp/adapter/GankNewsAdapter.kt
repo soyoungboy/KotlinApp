@@ -28,6 +28,7 @@ class GankNewsAdapter(val items: List<GankNews>, val itemClickListener: (GankNew
         fun bind(news: GankNews) {
             view.title.text = news.desc
             view.desc.text = news.type
+            view.who.text = news.who
             view.setOnClickListener {
                 itemClickListener(news)
             }
