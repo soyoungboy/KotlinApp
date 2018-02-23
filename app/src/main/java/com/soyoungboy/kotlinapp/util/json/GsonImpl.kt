@@ -5,7 +5,7 @@ import com.google.gson.reflect.TypeToken
 import java.util.*
 
 /**
- * Created by wfb on 2017/12/25.
+ * Created by soyoungboy on 2017/12/25.
  */
 
 class GsonImpl : Json() {
