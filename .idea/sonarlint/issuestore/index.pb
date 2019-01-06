@@ -1,0 +1,23 @@
+
+a
+1app/src/main/java/com/soyoungboy/kotlinapp/App.kt,8\9\896ce91361cca7945e739d33719a0b0b3b968f68
+s
+Capp/src/main/java/com/soyoungboy/kotlinapp/widget/RatioImageView.kt,a\f\af506b8351581587de955b3a3aacfc751e32e8ca
+|
+Lapp/src/main/java/com/soyoungboy/kotlinapp/util/GridSpacingItemDecoration.kt,c\6\c6b58c4f8ab75be4a53a305e32140ab0003ba2c4
+w
+Gapp/src/main/java/com/soyoungboy/kotlinapp/ui/activity/LoginActivity.kt,b\f\bf63d69279ba406918b50bce35daec0bb09b696d
+~
+Napp/src/main/java/com/soyoungboy/kotlinapp/ui/activity/GankNewsListActivity.kt,6\4\64189771957b67bcec79532c463125f4547460ea
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+j
+:app/src/main/java/com/soyoungboy/kotlinapp/bean/Request.kt,0\1\019ff2f3980650b80f6789f4a99d26c33312797f
+}
+Mapp/src/main/java/com/soyoungboy/kotlinapp/ui/activity/GankPictureActivity.kt,2\d\2d3910f298dc52ac1bc704204f092821807a9d50
+r
+Bapp/src/main/java/com/soyoungboy/kotlinapp/bean/GankPictureList.kt,3\7\3769c2d1e2d90df2bc1716136f77c182082d6d86
+n
+>app/src/main/java/com/soyoungboy/kotlinapp/bean/GankPicture.kt,9\8\9878ae384ef7a4a82f2e77135f30f4c064a079a3
+m
+=app/src/main/java/com/soyoungboy/kotlinapp/bean/DataLoader.kt,7\6\7644e73b64e5ec36a84196562207b545c66c67e9
