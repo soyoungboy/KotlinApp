@@ -8,7 +8,7 @@ import java.net.URL
 class Request(val url: String) {
 
     companion object {
-        val BASE_URL = "http://gank.io/api/"
+        val BASE_URL = "https://gank.io/api/"
     }
 
     fun run(): String {

@@ -11,6 +11,8 @@ data class GankPicture(
         var source: String,
         var type: String,
         var url: String,
-        var isUsed: Boolean,
+        var used: Boolean,
         var who: String
+
+
 )
