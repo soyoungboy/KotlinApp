@@ -1,12 +1,14 @@
 package com.soyoungboy.kotlinapp.adapter
 
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import com.soyoungboy.kotlinapp.R
 import com.soyoungboy.kotlinapp.bean.GankNews
+import com.soyoungboy.kotlinapp.util.DateUtil
 import com.soyoungboy.kotlinapp.util.glide.ImageUtils
 import kotlinx.android.synthetic.main.item_gank_news.view.*
 
@@ -28,6 +30,7 @@ class GankNewsAdapter(val items: List<GankNews>, val itemClickListener: (GankNew
 
     class ViewHolder(val view: View, val itemClickListener: (GankNews) -> Unit) : RecyclerView.ViewHolder(view) {
         fun bind(news: GankNews) {
+            Log.i("CurrentTime", DateUtil.nowDate)
             val imageview2 = view.imageview2 as ImageView
             if (news.images != null && news.images.isNotEmpty()) {
                 ImageUtils.loadImage(news.images[0], imageview2)

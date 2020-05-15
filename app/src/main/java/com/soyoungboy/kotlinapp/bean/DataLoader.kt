@@ -8,7 +8,7 @@ import java.util.*
  */
 class DataLoader {
 
-    fun getGankNewsList(date: String): List<GankNews> {
+    fun getGankNewsList(date: String): ArrayList<GankNews> {
         val url = Request.BASE_URL + date
         return Json.get().toObject(Request(url).run(), GankNewsList::class.java).results
     }

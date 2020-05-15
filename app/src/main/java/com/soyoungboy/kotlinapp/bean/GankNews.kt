@@ -14,6 +14,7 @@ data class GankNews(
 //        val used: Boolean,
 //        val who: String,
 //        val images: List<String>
+
         var _id: String,
         var createdAt: String,
         var desc: String,
@@ -24,4 +25,5 @@ data class GankNews(
         var used: Boolean,
         var who: String,
         var images: List<String>
+
 )
